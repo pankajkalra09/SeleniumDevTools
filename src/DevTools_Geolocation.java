@@ -36,7 +36,7 @@ public class DevTools_Geolocation {
 		Thread.sleep(2000);
 		String text = driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div/div/div[2]/div[1]/div[2]/div[1]/h1")).getText();
 		System.out.println(text);
-		//testing
+		
 		
 	}
 
